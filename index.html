@@ -17,24 +17,25 @@
                 </p>
                 <button>GET STARTED</button>
             </div>
-            <div class="headerright">
-                <img src="./img/banner.jpg" alt="banner" />
-            </div>
+            <div class="headerright"></div>
         </div>
         <div class="section2">
             <div class="mainleft">
-                <img src="./img/img-left.jpg" alt="forest" />
+                <!-- <img src="./img/img-left.jpg" alt="forest" /> -->
             </div>
             <div class="mainright">
-                <h2>Magna etiam feugiat</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Similique cum quibusdam fugiat aliquam, dignissimos consequuntur
-                    soluta velit magnam placeat, perferendis dolorem labore error
-                    pariatur obcaecati? accusantium aperiam porro sed! Dolores
-                    impedit nisi nemo doloribus soluta ea nulla. Animi?
-                </p>
-                <button>LEARN MORE</button>
+                <div class="mainrighttxt">
+                    <h2>Magna etiam feugiat</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Similique cum quibusdam fugiat aliquam, dignissimos
+                        consequuntur soluta velit magnam placeat, perferendis dolorem
+                        labore error pariatur obcaecati? accusantium aperiam porro
+                        sed! Dolores impedit nisi nemo doloribus soluta ea nulla.
+                        Animi?
+                    </p>
+                    <button>LEARN MORE</button>
+                </div>
             </div>
         </div>
         <div class="section3">
@@ -44,8 +45,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias est velit perferendis exercitationem dolorum obcaecati
                     error? Tempora qui quod facilis. Corporis facilis labore beatae
-                    ullam dolores nihil, doloremque nam, ducimus doloribus facere
-                    quam assumenda deleniti, itaque molestias porro. Modi accusantium
+                    ullam dolores nihil, itaque molestias porro. Modi accusantium
                     consequuntur optio aut, voluptatum alias omnis saepe. Sit, ad
                     quasi.
                 </p>
@@ -53,19 +53,30 @@
             </div>
 
             <div class="main2right">
-                <img src="./img/img-right.jpg" alt="pont" />
+                <!-- <img src="./img/img-right.jpg" alt="pont" /> -->
             </div>
         </div>
         <div class="section4"></div>
         <div class="form"></div>
         <form action="">
-            <h2>Get in touch</h2>
-            <input type="text" id="name" />
-            <label for="name">Name</label>
-            <input type="text" id="email" />
-            <label for="email">Email</label>
-            <textarea cols="15" rows="10"></textarea>
-            <input type="submit" />
+            <div class="titre">
+                <h2>Get in touch</h2>
+            </div>
+            <div class="name">
+                <label for="name">Name</label>
+                <input type="text" id="name" required />
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+            </div>
+            <div class="message">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <div class="submit">
+                <input class="submit" type="submit" />
+            </div>
         </form>
 
         <div class="section5">
