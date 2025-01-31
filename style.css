@@ -5,7 +5,7 @@
 }
 body {
     width: 100%;
-    min-width: 300px;
+    min-width: 400px;
     height: 100vh;
     font-family: sans-serif;
 }
@@ -51,6 +51,7 @@ h2 {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
+    width: 100%;
 }
 .section2 {
     display: grid;
@@ -98,14 +99,19 @@ h2 {
     background-position: center;
 }
 .section4 {
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 90%;
+    padding: 50px 0;
+    box-sizing: border-box;
 }
 .formulaire {
     display: flex;
@@ -117,7 +123,11 @@ h2 {
     justify-content: center;
     margin-bottom: 20px;
 }
-input, textarea {
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
     border-radius: 7px;
     border: 1px solid rgba(128, 128, 128, 0.507);
 }
@@ -156,7 +166,7 @@ input, textarea {
     text-align: center;
     padding-bottom: 20px;
 }
-.message textarea{
+.message textarea {
     padding: 10px;
 }
 .message label {
@@ -217,17 +227,13 @@ input, textarea {
         flex-direction: column;
         text-align: center;
     }
+    .form {
+    }
     .headerright {
         height: 300px;
     }
     .mainleft,
     .main2right {
-        display: none;
-    }
-}
-@media screen and (max-width: 400px) {
-    .headerright,
-    .mainleft {
         display: none;
     }
 }
