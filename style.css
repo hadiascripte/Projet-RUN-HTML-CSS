@@ -134,15 +134,13 @@ h2 {
     align-items: stretch;
     text-align: center;
     grid-area: message;
+    padding-bottom: 20px;
 }
 .labelmsg {
     margin-bottom: 30px;
 }
 .submit {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    text-align: center;
     grid-area: submit;
     background: white;
     border-radius: 30px;
@@ -162,18 +160,19 @@ h2 {
 }
 .footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
 }
 .footer img {
     padding: 50px 0;
     margin: 20px;
-    width: 2%;
+    width: 30px;
 }
 .footer::before {
     content: "";
     position: absolute;
     background: rgb(224, 221, 221);
-    width: 80%;
+    width: 90%;
     height: 1px;
 }
