@@ -58,10 +58,11 @@
         </div>
         <div class="section4"></div>
         <div class="form">
-            <form action="">
-                <div class="titre">
-                    <h2>Get in touch</h2>
-                </div>
+            <div class="titre">
+                <h2>Get in touch</h2>
+            </div>
+            <form class="formulaire" action="">
+                
                 <div class="name">
                     <label for="name">Name</label>
                     <input type="text" id="name" required />
@@ -71,8 +72,13 @@
                     <input type="email" id="email" required />
                 </div>
                 <div class="message">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
+                    <label class="labelmsg" for="message">Message</label>
+                    <textarea
+                        id="message"
+                        cols="20"
+                        rows="6"
+                        name="message"
+                    ></textarea>
                 </div>
                 <div class="submit">
                     <input class="submit" type="submit" />
@@ -80,7 +86,13 @@
             </form>
         </div>
         <div class="section5">
-            <div class="footer"></div>
+            <div class="footer">
+                <img src="./img/twitter.png" >
+                <img src="./img/facebook (1).png" >
+                <img src="./img/instagram.png" >
+                <img src="./img/linkedin.png" >
+                <img src="./img/email.png" >
+            </div>
         </div>
     </body>
 </html>
