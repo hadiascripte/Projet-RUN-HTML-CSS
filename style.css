@@ -156,6 +156,9 @@ input, textarea {
     text-align: center;
     padding-bottom: 20px;
 }
+.message textarea{
+    padding: 10px;
+}
 .message label {
     margin-bottom: 20px;
 }
