@@ -96,22 +96,19 @@ h2 {
     background-position: center;
 }
 .form {
-    display: grid;
-    justify-items: center;
-    position: relative;
-}
-.form h2 {
-    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 .formulaire {
-    display: grid;
-    width: 40%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-        "name email"
-        "message message"
-        "submit submit";
+    display: flex;
+    flex-direction: column;
+  
+}
+.hautformulaire {
+    display: flex;
+    margin-bottom: 20px;
 }
 .name {
     display: flex;
@@ -120,6 +117,13 @@ h2 {
     text-align: center;
     margin-right: 20px;
 }
+.name label {
+    padding: 10px 0;
+}
+.name input {
+    padding: 4px;
+}
+
 .email {
     display: flex;
     justify-content: space-evenly;
@@ -127,25 +131,38 @@ h2 {
     text-align: center;
     margin-left: 20px;
 }
+.email label {
+    padding: 10px 0;
+}
+.email input {
+    padding: 4px;
+}
 .message {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: stretch;
     text-align: center;
-    grid-area: message;
     padding-bottom: 20px;
 }
-.labelmsg {
-    margin-bottom: 30px;
+.message label{
+    margin-bottom: 20px;
 }
-.submit {
-    text-align: center;
-    grid-area: submit;
+.submit{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.submitbtn {
     background: white;
     border-radius: 30px;
     padding: 8px 18px;
     font-size: 0.8rem;
+    align-items: center;
+}
+.submitbtn:hover {
+    cursor: pointer;
+    background: rgb(148, 81, 81);
+    color: whitesmoke;
 }
 .section4::before {
     content: "";
