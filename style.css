@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body {
-    overflow-x: hidden;
-  }
+
 body {
     width: 100%;
-    max-width: 100vw;
+    min-width: 400px;
     height: 100vh;
     font-family: sans-serif;
 }
