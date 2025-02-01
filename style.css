@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    min-width: 300px;
+    min-width: 450px;
     height: 100vh;
     font-family: sans-serif;
 }
@@ -51,7 +51,7 @@ h2 {
     background-image: url("./img/banner.jpg");
     background-size: cover;
     background-position: right;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 .section2 {
     display: grid;
@@ -120,7 +120,7 @@ h2 {
 }
 input,
 textarea {
-    border-radius: 7px;
+    border-radius: 3px;
     border: 1px solid rgba(128, 128, 128, 0.507);
 }
 .name {
@@ -128,7 +128,7 @@ textarea {
     justify-content: space-evenly;
     flex-direction: column;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 .name label {
     padding: 10px 0;
@@ -142,7 +142,7 @@ textarea {
     justify-content: space-evenly;
     flex-direction: column;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .email label {
     padding: 10px 0;
@@ -222,18 +222,25 @@ textarea {
     .headerright {
         height: 300px;
         width: 100%;
+        background-size: cover;
+        background-position: right;
     }
     .mainleft,
     .main2right {
         display: none;
     }
     .form{
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 30px;
     }
 }
 @media screen and (max-width: 400px) {
     .headerright,
     .mainleft {
         display: none;
+    }
+    .form{
+        width: 80%;
     }
 }
