@@ -111,11 +111,13 @@ h2 {
 .formulaire {
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 15px;
 }
 .hautformulaire {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-bottom: 20px;
 }
 input,
@@ -229,19 +231,27 @@ textarea {
     .main2right {
         display: none;
     }
-    .form{
+    .form {
         width: 80%;
         margin: 0 auto;
         padding-top: 30px;
     }
 }
 @media screen and (max-width: 400px) {
-
+    .titre {
+        text-align: center;
+    }
     .headerright,
     .mainleft {
         display: none;
     }
-    .form{
-        width: 80%;
+    .form,
+    .hautformulaire {
+        display: block;
+    }
+    .name,
+    .email {
+        margin-right: 0;
+        margin-left: 0;
     }
 }
