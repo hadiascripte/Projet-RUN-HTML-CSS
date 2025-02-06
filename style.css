@@ -236,23 +236,22 @@ textarea {
         margin: 0 auto;
         padding-top: 30px;
     }
-    .formulaire{
-        padding:0 30PX;
+    .formulaire {
+        padding: 0 30px;
     }
 }
 @media screen and (max-width: 400px) {
-    body{
-
+    body {
+        width: 100vw;
     }
     .titre {
         text-align: center;
     }
-    .headerright,
     .mainleft {
         display: none;
     }
-    .formulaire{
-        padding:0 30PX;
+    .formulaire {
+        padding: 0 30px;
     }
     .form,
     .hautformulaire {
