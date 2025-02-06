@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    min-width: 200px;
+    min-width: 400px;
     height: 100vh;
     font-family: sans-serif;
 }
@@ -241,6 +241,9 @@ textarea {
     }
 }
 @media screen and (max-width: 400px) {
+    body{
+
+    }
     .titre {
         text-align: center;
     }
