@@ -107,10 +107,10 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
     margin: 0 auto;
-    padding-top: 30px;
-    width: 80%;
+    padding-top: 50px;
+    width: 40%;
+    gap: 20px;
 }
 .formulaire {
     display: flex;
@@ -247,6 +247,7 @@ textarea {
     .form {
         margin: 0 auto;
         padding-top: 30px;
+        width: 90%;
     }
     .formulaire {
         padding: 0 30px;
@@ -264,7 +265,7 @@ textarea {
     }
     .form,
     .hautformulaire {
-
+        margin: 0 auto;
         display: block;
     }
     .name,
